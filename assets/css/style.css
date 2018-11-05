@@ -1,6 +1,6 @@
 /* ///// Universal CSS ///// */
 body {
-    background-image: url("../../dust_scratches.jpg");
+    background-image: url("../images/dust_scratches/dust_scratches.png");
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,7 +10,7 @@ body {
     flex-direction: column;
 }
 
-header {
+/* header { */
     background-color: #ffffff;
     font-family: Georgia, Times,'Times New Roman', serif;
     border-bottom: 2px solid #cccccc;
@@ -20,7 +20,7 @@ header {
 }
 
 /* ///// Creates a container for centered header elements ///// */
-.centerHeader {
+/* .centerHeader { */
     width: 960px;
     height: 100px;
     margin: 0 auto;
@@ -28,7 +28,7 @@ header {
     /* z-index: 99; */
 }
 
-h1 {
+/* h1 { */
     background-color: #4aaaa5;
     color: #ffffff;
     float: left;
@@ -37,7 +37,7 @@ h1 {
     /* z-index: 99; */
 }
 
-nav{
+/* nav{ */
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     float: right;
     text-align: right;
@@ -74,7 +74,7 @@ a:active {
 }
 
 /* ///// Covers entire width of main content area ///// */
-section {
+/* section { */
     clear: both;
     padding: 10px 0px 60px 0px;
     margin: 120px auto;
@@ -84,7 +84,7 @@ section {
 }
 
 /* ///// Creates centered container for main content ///// */
-.aboutMe {
+/* .aboutMe { */
     background-color: #ffffff;
     border: 2px solid #dddddd;
     width: 960px;
@@ -92,11 +92,11 @@ section {
 }
 
 /* ///// Creates centered container for left justification ///// */
-.centerAbout {
+/* .centerAbout { */
     padding: 0px 30px 0px 30px;
 }
 
-h2 {
+/* h2 { */
     color: #4aaaa5;
     font-size: 34px;
     padding-bottom: 15px;
@@ -104,7 +104,7 @@ h2 {
     border-bottom: 2px solid #dddddd;
 }
 
-footer {
+/* footer { */
     background-color: #666666;
     color: #cccccc;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -115,7 +115,7 @@ footer {
 }
 
 /* ///// Index.html and Contact.html specific CSS */
-.content {
+/* .content { */
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     line-height: 2.2;
@@ -124,7 +124,7 @@ footer {
 }
 
 /* ///// Index.html specific CSS ///// */
-.aboutPic {
+/* .aboutPic { */
     float: left;
     margin-right: 25px;
     margin-bottom: 5px;
@@ -132,16 +132,16 @@ footer {
 }
 
 /* ////////// Contact.html specific CSS ////////// */
-input {
+/* input { */
    width: 900px; 
 }
 
-#name, #email {
+/* #name, #email { */
     opacity: 0.55;
     padding: 5px;
 }
 
-#message {
+/* #message { */
     opacity: 0.85;
     padding: 5px;
     width: 900px;
@@ -151,7 +151,7 @@ input {
     overflow: hidden;
 }
 
-#submit {
+/* #submit { */
     border: 0;
     padding: 10px 30px 10px 30px;
     width: auto;
@@ -160,22 +160,22 @@ input {
     cursor: pointer;
 }
 
-button {
+/* button { */
     border: 0;
     padding: 0px;
 }
 
-#samplePseudo {
+/* #samplePseudo { */
     display: none;
 }
 
 /* ///// Creates specific styling for submit button when someone hovers over it ///// */
-#submit:hover {
+/* #submit:hover { */
         background-color: #777777;
         color: #ffffff;
 }
 
-button:active #samplePseudo {
+/* button:active #samplePseudo { */
     display: block;
     position: absolute;
     bottom: 90;
@@ -188,48 +188,48 @@ button:active #samplePseudo {
 }
 
 /* ////////// Portfolio.html specific CSS ////////// */
-.portfolio {
+/* .portfolio { */
     background-color: #ffffff;
     border: 2px solid #dddddd;
     width: 960px;
     float: left;
 }
 
-.contentImages {
+/* .contentImages { */
     float: left;
     font-family: Georgia, Times,'Times New Roman', serif;
     padding: 0px 25px 10px 0px;
 }
 
-.firstCol {
+/* .firstCol { */
     float: left;
     margin-right: 15px;
 }
 
-.secondCol {
+/* .secondCol { */
     float: left;
     margin-left: 15px;
 }
 
 /* ///// Creates container for image and text so correct hover outline can be applied ///// */
-.picBox {
+/* .picBox { */
     width: 250px;
     height: 150px;
     margin: 0px 0px 30px 0px;
 }
 
-.picPort {
+/* .picPort { */
     width: 250px;
     height: 150px; 
 }
 
 /* ///// Creates outline when user hovers over image ///// */
-.picBox:hover {
+/* .picBox:hover { */
     outline: 4px solid #777777;
     outline-offset: 4px;
 }
 
-.picText {
+/* .picText { */
     width: 250px;
     background-color: #4aaaa5;
     color: #ffffff;
