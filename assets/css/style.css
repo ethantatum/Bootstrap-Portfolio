@@ -10,13 +10,17 @@ body {
     flex-direction: column;
 }
 
-/* header { */
-    background-color: #ffffff;
+header {
+    /* background-color: #ffffff;
     font-family: Georgia, Times,'Times New Roman', serif;
     border-bottom: 2px solid #cccccc;
     width: 100%;
-    position: fixed;
+    position: fixed; */
     z-index: 2;
+}
+
+.portBody {
+    z-index: 1;
 }
 
 /* ///// Creates a container for centered header elements ///// */
